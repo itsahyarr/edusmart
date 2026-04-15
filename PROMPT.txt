@@ -1,0 +1,3 @@
+Create detailed plan based on PRD.md.
+Think deeply first, then create detailed step by step plan so junior developer or cheaper coding agent can execute the plan with no mistakes.
+Submit the generated detailed plan as github issue (gh issue create), not only bd issue

@@ -1,7 +1,7 @@
 {
-  "database": "dolt",
-  "backend": "dolt",
-  "dolt_mode": "embedded",
-  "dolt_database": "edusmart",
-  "project_id": "f17a3ecd-0e9b-4d80-a21d-f019440450da"
+	"database": "dolt",
+	"backend": "dolt",
+	"dolt_mode": "embedded",
+	"dolt_database": "edusmart",
+	"project_id": "f17a3ecd-0e9b-4d80-a21d-f019440450da"
 }

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		color: #0c4a6e;
+		background-color: #f0f9ff;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		background: #f97316;
+		color: white;
+		padding: 12px 24px;
+		border-radius: 8px;
+		font-weight: 600;
+		transition: all 200ms ease;
+		cursor: pointer;
+		display: inline-block;
+	}
+	.btn-primary:hover {
+		opacity: 0.9;
+		transform: translateY(-1px);
+	}
+	.card {
+		background: white;
+		border-radius: 16px;
+		padding: 24px;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+		transition: all 200ms ease;
+	}
+	.card:hover {
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+		transform: translateY(-4px);
+	}
+}
