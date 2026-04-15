@@ -18,12 +18,8 @@
 		: 'bg-transparent'}"
 >
 	<nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-		<a href="/" class="flex items-center gap-2">
-			<div
-				class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary font-heading text-sm font-bold text-white"
-			>
-				E
-			</div>
+		<a href="/" class="flex items-center gap-2.5">
+			<img src="/edusmart.webp" alt="EduSmart" class="h-9 w-9 rounded-lg object-cover" />
 			<span class="font-heading text-xl font-bold text-text">EduSmart</span>
 		</a>
 

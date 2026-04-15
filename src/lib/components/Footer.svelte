@@ -8,12 +8,8 @@
 		<div class="grid gap-12 md:grid-cols-4">
 			<!-- Brand -->
 			<div class="md:col-span-2">
-				<div class="flex items-center gap-2">
-					<div
-						class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary font-heading text-sm font-bold text-white"
-					>
-						E
-					</div>
+				<div class="flex items-center gap-2.5">
+					<img src="/edusmart.webp" alt="EduSmart" class="h-9 w-9 rounded-lg object-cover" />
 					<span class="font-heading text-xl font-bold text-white">EduSmart</span>
 				</div>
 				<p class="mt-4 max-w-sm text-sm leading-relaxed text-white/50">
