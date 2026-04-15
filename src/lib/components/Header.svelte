@@ -13,43 +13,43 @@
 </script>
 
 <header
-	class="top-0 left-0 right-0 fixed z-50 transition-all duration-300 {scrolled
+	class="fixed top-0 right-0 left-0 z-50 transition-all duration-300 {scrolled
 		? 'bg-white/90 shadow-md backdrop-blur-lg'
 		: 'bg-transparent'}"
 >
-	<nav class="max-w-6xl px-6 py-4 mx-auto flex items-center justify-between">
-		<a href="/" class="gap-2 flex items-center">
+	<nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+		<a href="/" class="flex items-center gap-2">
 			<div
-				class="h-9 w-9 rounded-lg bg-primary font-heading text-sm font-bold text-white flex items-center justify-center"
+				class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary font-heading text-sm font-bold text-white"
 			>
 				E
 			</div>
 			<span class="font-heading text-xl font-bold text-text">EduSmart</span>
 		</a>
 
-		<div class="gap-6 flex items-center">
+		<div class="flex items-center gap-6">
 			<a
 				href="#courses"
-				class="text-sm font-medium text-text/70 hover:text-primary md:block hidden transition-colors"
+				class="hidden text-sm font-medium text-text/70 transition-colors hover:text-primary md:block"
 			>
 				Kursus
 			</a>
 			<a
 				href="#testimonials"
-				class="text-sm font-medium text-text/70 hover:text-primary md:block hidden transition-colors"
+				class="hidden text-sm font-medium text-text/70 transition-colors hover:text-primary md:block"
 			>
 				Testimoni
 			</a>
 			<a
 				href="#faq"
-				class="text-sm font-medium text-text/70 hover:text-primary md:block hidden transition-colors"
+				class="hidden text-sm font-medium text-text/70 transition-colors hover:text-primary md:block"
 			>
 				FAQ
 			</a>
 			<a
 				href="#courses"
 				onclick={() => trackClick('header_cta')}
-				class="btn-primary px-6 py-2.5 text-sm cursor-pointer rounded-full no-underline"
+				class="btn-primary cursor-pointer rounded-full px-6 py-2.5 text-sm no-underline"
 			>
 				Daftar Sekarang
 			</a>

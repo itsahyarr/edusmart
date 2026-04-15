@@ -4,11 +4,11 @@
 </script>
 
 <!-- Trust Bar -->
-<section class="border-text/5 bg-white py-8 border-y">
-	<div class="max-w-6xl px-6 mx-auto">
-		<div class="gap-8 md:flex-row md:justify-between flex flex-col items-center">
+<section class="border-y border-text/5 bg-white py-8">
+	<div class="mx-auto max-w-6xl px-6">
+		<div class="flex flex-col items-center gap-8 md:flex-row md:justify-between">
 			<!-- Partner logos placeholder -->
-			<div class="gap-8 flex flex-wrap items-center justify-center opacity-40">
+			<div class="flex flex-wrap items-center justify-center gap-8 opacity-40">
 				{#each partners as partner (partner.name)}
 					<span class="font-heading text-sm font-bold tracking-wider text-text uppercase"
 						>{partner.name}</span
@@ -17,9 +17,9 @@
 			</div>
 
 			<!-- Stats -->
-			<div class="gap-6 md:gap-8 flex">
-				<div class="gap-2 flex items-center">
-					<div class="h-8 w-8 rounded-lg bg-cta/10 flex items-center justify-center">
+			<div class="flex gap-6 md:gap-8">
+				<div class="flex items-center gap-2">
+					<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-cta/10">
 						<Star size={14} class="text-cta" />
 					</div>
 					<div>
@@ -27,8 +27,8 @@
 						<div class="text-xs text-text/50">Rating</div>
 					</div>
 				</div>
-				<div class="gap-2 flex items-center">
-					<div class="h-8 w-8 rounded-lg bg-primary/10 flex items-center justify-center">
+				<div class="flex items-center gap-2">
+					<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10">
 						<Users size={14} class="text-primary" />
 					</div>
 					<div>
@@ -36,8 +36,8 @@
 						<div class="text-xs text-text/50">Alumni</div>
 					</div>
 				</div>
-				<div class="gap-2 flex items-center">
-					<div class="h-8 w-8 rounded-lg bg-green-500/10 flex items-center justify-center">
+				<div class="flex items-center gap-2">
+					<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-green-500/10">
 						<BookOpen size={14} class="text-green-600" />
 					</div>
 					<div>

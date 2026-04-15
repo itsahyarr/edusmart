@@ -38,14 +38,14 @@
 
 {#if currentMessage}
 	<div
-		class="bottom-6 left-6 max-w-sm fixed z-40 transition-all duration-300 {visible
+		class="fixed bottom-6 left-6 z-40 max-w-sm transition-all duration-300 {visible
 			? 'translate-y-0 opacity-100'
 			: 'translate-y-4 opacity-0'}"
 	>
 		<div
-			class="gap-3 rounded-2xl border-text/5 bg-white px-5 py-3.5 shadow-xl shadow-text/10 flex items-center border"
+			class="flex items-center gap-3 rounded-2xl border border-text/5 bg-white px-5 py-3.5 shadow-xl shadow-text/10"
 		>
-			<div class="h-9 w-9 bg-green-500/10 flex shrink-0 items-center justify-center rounded-full">
+			<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-green-500/10">
 				<UserPlus size={16} class="text-green-600" />
 			</div>
 			<p class="text-xs text-text/70">{currentMessage}</p>

@@ -4,11 +4,11 @@
 </script>
 
 <section id="courses" class="bg-white py-20 md:py-28">
-	<div class="max-w-6xl px-6 mx-auto">
+	<div class="mx-auto max-w-6xl px-6">
 		<!-- Section header -->
-		<div class="mb-16 max-w-2xl mx-auto text-center">
+		<div class="mx-auto mb-16 max-w-2xl text-center">
 			<div
-				class="mb-4 bg-cta/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-cta inline-block rounded-full uppercase"
+				class="mb-4 inline-block rounded-full bg-cta/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-cta uppercase"
 			>
 				Pilihan Kursus
 			</div>
@@ -22,7 +22,7 @@
 		</div>
 
 		<!-- Course grid -->
-		<div class="gap-8 sm:grid-cols-2 lg:grid-cols-2 grid">
+		<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
 			{#each courses as course (course.id)}
 				<CourseCard {course} />
 			{/each}

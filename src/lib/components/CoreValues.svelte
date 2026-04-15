@@ -33,11 +33,11 @@
 </script>
 
 <section class="bg-background py-20 md:py-28">
-	<div class="max-w-6xl px-6 mx-auto">
+	<div class="mx-auto max-w-6xl px-6">
 		<!-- Section header -->
-		<div class="mb-16 max-w-2xl mx-auto text-center">
+		<div class="mx-auto mb-16 max-w-2xl text-center">
 			<div
-				class="mb-4 bg-primary/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-primary inline-block rounded-full uppercase"
+				class="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-primary uppercase"
 			>
 				Mengapa EduSmart?
 			</div>
@@ -50,10 +50,10 @@
 		</div>
 
 		<!-- Values grid -->
-		<div class="gap-8 md:grid-cols-3 grid">
+		<div class="grid gap-8 md:grid-cols-3">
 			{#each values as item (item.title)}
 				<div class="card group rounded-2xl bg-white p-8">
-					<div class="mb-5 h-14 w-14 rounded-2xl flex items-center justify-center {item.bgClass}">
+					<div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl {item.bgClass}">
 						<item.icon size={24} class={item.iconClass} />
 					</div>
 					<h3 class="font-heading text-lg font-bold text-text">{item.title}</h3>

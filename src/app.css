@@ -1,18 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
+/* ── Custom Theme ── */
+@theme {
+	/* Colors */
+	--color-primary: #0ea5e9;
+	--color-secondary: #38bdf8;
+	--color-cta: #f97316;
+	--color-background: #f0f9ff;
+	--color-text: #0c4a6e;
+
+	/* Fonts */
+	--font-heading: 'Rubik', sans-serif;
+	--font-sans: 'Nunito Sans', sans-serif;
+}
+
+/* ── Base Styles ── */
 @layer base {
 	html {
 		scroll-behavior: smooth;
-		color: #0c4a6e;
-		background-color: #f0f9ff;
+		color: var(--color-text);
+		background-color: var(--color-background);
 	}
 }
 
+/* ── Component Classes ── */
 @layer components {
 	.btn-primary {
-		background: #f97316;
+		background: var(--color-cta);
 		color: white;
 		padding: 12px 24px;
 		border-radius: 8px;

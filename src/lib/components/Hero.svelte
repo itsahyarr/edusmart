@@ -3,32 +3,32 @@
 	import { ArrowRight, Sparkles, Play } from 'lucide-svelte';
 </script>
 
-<section class="bg-background pt-28 pb-20 md:pt-36 md:pb-28 relative overflow-hidden">
+<section class="relative overflow-hidden bg-background pt-28 pb-20 md:pt-36 md:pb-28">
 	<!-- Subtle background decoration -->
-	<div class="inset-0 pointer-events-none absolute">
-		<div class="-top-24 -right-24 h-96 w-96 bg-primary/5 blur-3xl absolute rounded-full"></div>
+	<div class="pointer-events-none absolute inset-0">
+		<div class="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-primary/5 blur-3xl"></div>
 		<div
-			class="-bottom-32 -left-32 bg-cta/5 blur-3xl absolute h-[500px] w-[500px] rounded-full"
+			class="absolute -bottom-32 -left-32 h-[500px] w-[500px] rounded-full bg-cta/5 blur-3xl"
 		></div>
 	</div>
 
-	<div class="max-w-6xl gap-12 px-6 md:grid-cols-2 md:gap-16 relative mx-auto grid items-center">
+	<div class="relative mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2 md:gap-16">
 		<!-- Left: Copy -->
 		<div>
 			<!-- Promo ribbon -->
 			<div
-				class="mb-6 gap-2 border-cta/20 bg-cta/5 px-4 py-2 text-sm font-semibold text-cta inline-flex items-center rounded-full border"
+				class="mb-6 inline-flex items-center gap-2 rounded-full border border-cta/20 bg-cta/5 px-4 py-2 text-sm font-semibold text-cta"
 			>
 				<Sparkles size={16} />
 				<span>Promo Launching — Diskon Hingga 75%</span>
 			</div>
 
 			<h1
-				class="font-heading text-4xl font-extrabold leading-tight text-text md:text-5xl lg:text-6xl"
+				class="font-heading text-4xl leading-tight font-extrabold text-text md:text-5xl lg:text-6xl"
 			>
 				Wujudkan
 				<span
-					class="text-primary after:-bottom-1 after:left-0 after:h-3 after:bg-cta/20 relative inline-block after:absolute after:w-full after:content-['']"
+					class="relative inline-block text-primary after:absolute after:-bottom-1 after:left-0 after:h-3 after:w-full after:bg-cta/20 after:content-['']"
 					>Karir Impianmu</span
 				>
 				Sekarang
@@ -41,21 +41,21 @@
 			</p>
 
 			<!-- CTA group -->
-			<div class="mt-8 gap-4 sm:flex-row sm:items-center flex flex-col">
+			<div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
 				<a
 					href="#courses"
 					onclick={() => trackClick('hero_cta')}
-					class="btn-primary gap-2 px-8 py-4 text-base font-semibold shadow-lg shadow-cta/25 inline-flex cursor-pointer items-center justify-center rounded-full no-underline"
+					class="btn-primary inline-flex cursor-pointer items-center justify-center gap-2 rounded-full px-8 py-4 text-base font-semibold no-underline shadow-lg shadow-cta/25"
 				>
 					Mulai Belajar
 					<ArrowRight size={18} />
 				</a>
 				<a
 					href="#testimonials"
-					class="gap-2 text-sm font-medium text-text/60 hover:text-primary inline-flex cursor-pointer items-center transition-colors"
+					class="inline-flex cursor-pointer items-center gap-2 text-sm font-medium text-text/60 transition-colors hover:text-primary"
 				>
 					<div
-						class="h-10 w-10 border-primary/20 bg-primary/5 flex items-center justify-center rounded-full border"
+						class="flex h-10 w-10 items-center justify-center rounded-full border border-primary/20 bg-primary/5"
 					>
 						<Play size={14} class="ml-0.5 text-primary" />
 					</div>
@@ -64,7 +64,7 @@
 			</div>
 
 			<!-- Quick stats -->
-			<div class="mt-10 gap-8 border-text/10 pt-6 flex border-t">
+			<div class="mt-10 flex gap-8 border-t border-text/10 pt-6">
 				<div>
 					<div class="font-heading text-2xl font-bold text-text">15K+</div>
 					<div class="text-sm text-text/50">Alumni Aktif</div>
@@ -81,37 +81,37 @@
 		</div>
 
 		<!-- Right: Visual -->
-		<div class="md:block relative hidden">
+		<div class="relative hidden md:block">
 			<!-- Main card -->
 			<div
-				class="rounded-3xl from-primary to-secondary p-1 shadow-2xl shadow-primary/20 relative z-10 overflow-hidden bg-gradient-to-br"
+				class="relative z-10 overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-secondary p-1 shadow-2xl shadow-primary/20"
 			>
-				<div class="bg-white p-8 rounded-[22px]">
-					<div class="mb-4 gap-3 flex items-center">
+				<div class="rounded-[22px] bg-white p-8">
+					<div class="mb-4 flex items-center gap-3">
 						<img
 							src="https://i.pravatar.cc/48?u=sarah-hero"
 							alt="Mentor"
-							class="h-12 w-12 ring-primary/20 rounded-full object-cover ring-2"
+							class="h-12 w-12 rounded-full object-cover ring-2 ring-primary/20"
 						/>
 						<div>
 							<div class="font-heading text-sm font-bold text-text">Sarah Wijaya</div>
 							<div class="text-xs text-text/50">Social Media Marketing</div>
 						</div>
 						<div
-							class="bg-green-50 px-3 py-1 text-xs font-semibold text-green-600 ml-auto rounded-full"
+							class="ml-auto rounded-full bg-green-50 px-3 py-1 text-xs font-semibold text-green-600"
 						>
 							LIVE
 						</div>
 					</div>
 					<div
-						class="mb-3 h-40 rounded-xl from-primary/10 to-cta/10 flex items-center justify-center bg-gradient-to-br"
+						class="mb-3 flex h-40 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-cta/10"
 					>
 						<Play size={32} class="text-primary/40" />
 					</div>
 					<div class="font-heading text-sm font-semibold text-text">
 						Social Media Marketing Mastery 2024
 					</div>
-					<div class="mt-2 gap-2 text-xs text-text/50 flex items-center">
+					<div class="mt-2 flex items-center gap-2 text-xs text-text/50">
 						<span>1.250 siswa</span>
 						<span>•</span>
 						<span>24 modul</span>
@@ -123,10 +123,10 @@
 
 			<!-- Floating badge -->
 			<div
-				class="-bottom-4 -left-4 rounded-2xl bg-white px-5 py-3 shadow-xl shadow-text/5 absolute z-20"
+				class="absolute -bottom-4 -left-4 z-20 rounded-2xl bg-white px-5 py-3 shadow-xl shadow-text/5"
 			>
-				<div class="gap-3 flex items-center">
-					<div class="h-10 w-10 bg-cta/10 flex items-center justify-center rounded-full">
+				<div class="flex items-center gap-3">
+					<div class="flex h-10 w-10 items-center justify-center rounded-full bg-cta/10">
 						<span class="text-lg">🎓</span>
 					</div>
 					<div>
@@ -138,24 +138,24 @@
 
 			<!-- Floating notification -->
 			<div
-				class="-top-2 -right-2 rounded-2xl bg-white px-4 py-2.5 shadow-xl shadow-text/5 absolute z-20"
+				class="absolute -top-2 -right-2 z-20 rounded-2xl bg-white px-4 py-2.5 shadow-xl shadow-text/5"
 			>
-				<div class="gap-2 flex items-center">
-					<div class="-space-x-2 flex">
+				<div class="flex items-center gap-2">
+					<div class="flex -space-x-2">
 						<img
 							src="https://i.pravatar.cc/28?u=a1"
 							alt=""
-							class="h-6 w-6 border-white rounded-full border-2"
+							class="h-6 w-6 rounded-full border-2 border-white"
 						/>
 						<img
 							src="https://i.pravatar.cc/28?u=a2"
 							alt=""
-							class="h-6 w-6 border-white rounded-full border-2"
+							class="h-6 w-6 rounded-full border-2 border-white"
 						/>
 						<img
 							src="https://i.pravatar.cc/28?u=a3"
 							alt=""
-							class="h-6 w-6 border-white rounded-full border-2"
+							class="h-6 w-6 rounded-full border-2 border-white"
 						/>
 					</div>
 					<div class="text-xs">

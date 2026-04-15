@@ -10,15 +10,15 @@
 	let isOpen = $state(false);
 </script>
 
-<div class="border-text/5 border-b">
+<div class="border-b border-text/5">
 	<button
 		onclick={() => (isOpen = !isOpen)}
-		class="gap-4 py-5 flex w-full cursor-pointer items-center justify-between text-left"
+		class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left"
 	>
 		<span class="font-heading text-sm font-semibold text-text md:text-base">{question}</span>
 		<ChevronDown
 			size={18}
-			class="text-text/30 shrink-0 transition-transform duration-200 {isOpen ? 'rotate-180' : ''}"
+			class="shrink-0 text-text/30 transition-transform duration-200 {isOpen ? 'rotate-180' : ''}"
 		/>
 	</button>
 
