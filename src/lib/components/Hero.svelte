@@ -109,7 +109,7 @@
 						<Play size={32} class="text-primary/40" />
 					</div>
 					<div class="font-heading text-sm font-semibold text-text">
-						Social Media Marketing Mastery 2024
+						Social Media Marketing Mastery 2026
 					</div>
 					<div class="mt-2 flex items-center gap-2 text-xs text-text/50">
 						<span>1.250 siswa</span>

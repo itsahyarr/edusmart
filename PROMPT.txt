@@ -1,3 +1,9 @@
-Create detailed plan based on PRD.md.
-Think deeply first, then create detailed step by step plan so junior developer or cheaper coding agent can execute the plan with no mistakes.
-Submit the generated detailed plan as github issue (gh issue create), not only bd issue
+I want to deploy this project to my local server. I can access remotely using ssh:
+
+ssh root@192.168.100.102
+
+create executable bash script (local-deploy.sh) which perform automatiom:
+- build then copy the result to local server (~/root/<project-name>) -> give me prompt to input local server root password if needed
+- access the local server, run with pm2
+
+final result is this project run with pm2. you can refer to context7 about pm2 (process management)

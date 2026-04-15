@@ -2,7 +2,7 @@ export const courses = [
 	{
 		id: 1,
 		category: 'Digital Marketing',
-		title: 'Social Media Marketing Mastery 2024',
+		title: 'Social Media Marketing Mastery 2026',
 		mentor: 'Sarah Wijaya',
 		originalPrice: 599000,
 		discountPrice: 149000,
@@ -59,7 +59,7 @@ export const mentors = [
 		role: 'Head of Growth at Unicorn Startup',
 		bio: 'Expert in scaling brands from 0 to 1M users. 8+ tahun pengalaman di digital marketing.',
 		photo: 'https://i.pravatar.cc/150?u=sarah',
-		course: 'Social Media Marketing Mastery 2024'
+		course: 'Social Media Marketing Mastery 2026'
 	},
 	{
 		name: 'Budi Santoso',

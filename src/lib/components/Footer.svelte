@@ -56,7 +56,7 @@
 		<div
 			class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row"
 		>
-			<p class="text-xs text-white/30">&copy; 2024 EduSmart. All rights reserved.</p>
+			<p class="text-xs text-white/30">&copy; 2026 EduSmart. All rights reserved.</p>
 			<a
 				href="#courses"
 				onclick={() => trackClick('footer_cta')}

@@ -34,7 +34,7 @@ Implement the EduSmart Landing Page MVP based on the provided Product Requiremen
 ### Step 2: Data Mocking (`src/lib/data.ts`)
 
 1. Create a file `src/lib/data.ts` (or `.js`) to hold the dummy data provided in the PRD.
-2. Export a `courses` array containing the JSON data from `PRD.md` section 6 (e.g., "Social Media Marketing Mastery 2024", "Full-Stack Web Development").
+2. Export a `courses` array containing the JSON data from `PRD.md` section 6 (e.g., "Social Media Marketing Mastery 2026", "Full-Stack Web Development").
 3. Export a `mentors` array containing the JSON data from `PRD.md` section 6 (e.g., "Sarah Wijaya", "Budi Santoso").
 4. Export arrays for `testimonials` (dummy success stories) and `faqs` (common technical/certificate questions).
 

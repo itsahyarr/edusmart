@@ -56,7 +56,7 @@
 	{
 		"id": 1,
 		"category": "Digital Marketing",
-		"title": "Social Media Marketing Mastery 2024",
+		"title": "Social Media Marketing Mastery 2026",
 		"mentor": "Sarah Wijaya",
 		"originalPrice": 599000,
 		"discountPrice": 149000,
